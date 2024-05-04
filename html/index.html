@@ -198,7 +198,7 @@
                     <a href="/html/san-pham.html?id=${product.id}" class="item col-3">
                         <img src="${product.image}" alt="">
                         <p class="desc-item">${product.name}</p>
-                        <span class="gia">${product.price}</span>
+                        <span class="gia">${product.price.toLocaleString("vi-VN")}</span>
                     </a>
                 `;
             });
